@@ -1,0 +1,70 @@
+/*
+    color scheme
+    dark gray: #525255
+    light dark navy: #4B5C77
+    white: #FFFFFF
+    dark green: #303E2B
+*/
+
+:root{
+    /* colors */
+    --darkGray: #525255;
+    --lightDarkNavy: #4B5C77;
+    --white: #FFFFFF;
+    --darkGreen: #303E2B;
+
+    /* spacing */
+    --size0: 4px;
+    --size1: 8px;
+    --size2: 12px;
+    --size3: 16px;
+    --size4: 20px;
+    --size5: 28px;
+    --size6: 40px;
+    --size7: 60px;
+    --size8: 100px;
+    --size9: 160px;
+    --size10: 240px;
+    --size20: 800px;
+    --size21: 1100px;
+
+    /* font sizing */
+    --fontSize0: 4px;
+    --fontSize1: 8px;
+    --fontSize2: 12px;
+    --fontSize3: 16px;
+    --fontSize4: 20px;
+    --fontSize5: 28px;
+    --fontSize6: 40px;
+    --fontSize7: 60px;
+    --fontSize8: 100px;
+    --fontSize9: 160px;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--lightDarkNavy);
+}
+
+.actionBody{
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: var(--size7);
+    padding: var(--size2); 
+    display: flex;
+    flex-direction: column;
+}
+
+.convoBox{
+    border: 2px solid black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.interaction{
+    border: 1px solid black;
+    border-radius: 15px;
+}
