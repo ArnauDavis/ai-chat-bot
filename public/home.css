@@ -45,31 +45,55 @@ body{
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: var(--lightDarkNavy);
+    background-color: var(--darkGray);
 }
 
 .actionBody{
-    border: 2px solid black;
+    border: 2px solid red;
     border-radius: 15px;
     margin: var(--size7);
     padding: var(--size2); 
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    align-content: space-around;
+    background: white;
 }
 
 .convoBox{
     border: 2px solid black;
     border-radius: 15px;
+    background: var(--white);
+    margin: var(--size5);
+    padding: var(--size6) var(--size4);
     display: flex;
     flex-direction: column;
+    
 }
 
-.aiChat{
-    float: left;
+.aiChat{ 
+    align-self: flex-start;
+    
 }
-.userChat
+.userChat{
+    align-self: flex-end;
+}
+
+.aiChat, .userChat{
+    border: 1px solid red;
+    margin: var(--size4) 0;
+    width: var(--size20);
+}
+
+
 
 .interaction{
     border: 1px solid black;
     border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: var(--size5);
+    padding: var(--size6) var(--size4);
 }
+
