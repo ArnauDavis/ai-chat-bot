@@ -46,6 +46,8 @@ body{
     margin: 0;
     padding: 0;
     background-color: var(--darkGray);
+    line-height: var(--size5);
+    font-size: var(--fontSize4);
 }
 
 .actionBody{
@@ -68,6 +70,8 @@ body{
     padding: var(--size6) var(--size4);
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    
     
 }
 
@@ -82,7 +86,9 @@ body{
 .aiChat, .userChat{
     border: 1px solid red;
     margin: var(--size4) 0;
-    width: var(--size20);
+    padding: var(--size4);
+    width: 70%;
+    
 }
 
 
